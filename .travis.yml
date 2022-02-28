@@ -16,4 +16,4 @@ install:
     - pip install matplotlib
     
 script: 
-    - testGOL.py
+    - pytest testGOL.py
